@@ -1,0 +1,20 @@
+{
+    "title": "Shared themes",
+    "version": "1.00",
+    "name": "SharedThemes",
+    "description": "List themes from a remote directory as they were locally installed.",
+    "author": "ImpressPages",
+    "options": [
+        {
+            "label": "Themes dir",
+            "name": "themesDir",
+            "type": "text",
+            "note": "Absolute path. E.g. \/var\/www\/xxx\/"
+        },
+        {
+            "label": "Themes URL",
+            "name": "themesUrl",
+            "note": "Url to the dir defined above. Needed to make thumbnail preview available. E.g. http:\/\/www.example.com\/xxx\/"
+        }
+    ]
+}
